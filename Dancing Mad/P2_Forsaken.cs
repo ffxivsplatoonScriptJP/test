@@ -342,7 +342,7 @@ public unsafe class P2_Forsaken : SplatoonScript<P2_Forsaken.Config>
         ImGui.Checkbox("Visualizer only (hide all text elements)", ref C.VisualizerOnly);
         ImGui.Checkbox("Hide tower split indicators", ref C.HideTowerSplit);
         ImGui.Checkbox("Show tower countdown", ref C.ShowTowerCountdown);
-        ImGui.Checkbox("Show in/out", ref C.ShowInOut);
+        ImGui.Checkbox("塔の中/外を見る", ref C.ShowInOut);
         if(C.ShowInOut)
         {
             ImGui.Indent();
