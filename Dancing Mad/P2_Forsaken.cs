@@ -155,11 +155,11 @@ public unsafe class P2_Forsaken : SplatoonScript<P2_Forsaken.Config>
                         if((this.TowerCount / 2).EqualsAny<uint>(C.Switchers)) isTaking = !isTaking;
                         if(!isTaking)
                         {
-                            e.overlayText = Controller.OriginalElements[kind].overlayText + "| -- OUT --";
+                            e.overlayText = Controller.OriginalElements[kind].overlayText + "| -- 外 --";
                         }
                         else
                         {
-                            e.overlayText = Controller.OriginalElements[kind].overlayText + "| ++ IN ++";
+                            e.overlayText = Controller.OriginalElements[kind].overlayText + "| ++ 中 ++";
                         }
                     }
                     else
