@@ -338,11 +338,11 @@ public unsafe class P2_Forsaken : SplatoonScript<P2_Forsaken.Config>
             }
             ImGui.Unindent();
         }
-        ImGui.Checkbox("Visualize attacks from towers", ref C.Visualize);
-        ImGui.Checkbox("Visualizer only (hide all text elements)", ref C.VisualizerOnly);
+        ImGui.Checkbox("塔踏みからの予兆を表示する", ref C.Visualize);
+        ImGui.Checkbox("予兆のみ(文字情報を非表示)", ref C.VisualizerOnly);
         ImGui.Checkbox("Hide tower split indicators", ref C.HideTowerSplit);
-        ImGui.Checkbox("Show tower countdown", ref C.ShowTowerCountdown);
-        ImGui.Checkbox("塔の中/外を見る", ref C.ShowInOut);
+        ImGui.Checkbox("塔着弾のカウントダウンを表示する", ref C.ShowTowerCountdown);
+        ImGui.Checkbox("塔の中/外を表示する", ref C.ShowInOut);
         if(C.ShowInOut)
         {
             ImGui.Indent();
