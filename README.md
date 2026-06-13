@@ -10,7 +10,6 @@ https://github.com/PunishXIV/Splatoon
 ## Modified By
 
 AnonyMouse  
-(Anonymous Rat / 匿名ネズミ)
 
 ## License
 
